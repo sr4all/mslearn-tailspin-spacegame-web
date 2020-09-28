@@ -4,12 +4,8 @@ trigger:
 pool:
   vmImage: 'ubuntu-18.04'
   demands:
-<<<<<<< HEAD
-  - npm
-=======
 
     - npm
->>>>>>> f55eb4c4f478e1c8336e29be7526e72120841232
 
 
 variables:
@@ -70,10 +66,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
-<<<<<<< HEAD
-  condition: succeeded()
-=======
 
   condition: succeeded()
 
->>>>>>> f55eb4c4f478e1c8336e29be7526e72120841232
